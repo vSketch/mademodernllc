@@ -957,6 +957,20 @@ img {
     .footer-links {
         flex-direction: column;
     }
+    .page-wrapper {
+        overflow: hidden;
+    }
+    .package-block {
+    }
+    .package-block-head {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        font-size: 8px;
+    }
+    .package-block img {
+        max-width: 100%;
+    }
 }
 @media screen and (max-width: 991px) {
     .menu.active {
